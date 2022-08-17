@@ -535,7 +535,10 @@ img {
 .fot-soc-block {
   align-items: baseline;
   display: flex;
-  justify-content: space-between;
+}
+
+.fot-soc-link {
+  margin-left: 70px;
 }
 
 .fot-title {
@@ -592,9 +595,11 @@ img {
 .fot-block {
   display: flex;
   align-items: flex-end;
+  margin-left: auto;
 }
 
 .fot-label {
+  margin: 0px;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -605,6 +610,7 @@ img {
 .fot-input {
   width: 358px;
   height: 50px;
+  margin-top: 20px;
   padding-left: 16px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 4px;
@@ -787,6 +793,7 @@ img {
 }
 
 /* Modal */
+
 .backdrop {
   position: fixed;
   top: 0;
@@ -823,6 +830,7 @@ img {
 }
 
 .btn-modal {
+  position: absolute;
   display: inline-flex;
   margin: 11px 8px 2px 450px;
   width: 30px;
