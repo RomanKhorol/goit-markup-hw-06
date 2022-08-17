@@ -966,7 +966,7 @@ img {
   margin-right: 7px;
 }
 
-.check-label span {
+.check-agre {
   display: flex;
   margin-top: 20px;
   margin-bottom: 30px;
@@ -979,12 +979,11 @@ img {
 }
 
 .checkbox-text {
-  margin-top: 0px;
-  margin-bottom: 0px;
+  margin: 0px;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
-  color: var(--primery-text-color);
+  color: rgba(117, 117, 117, 1);
 }
 
 .form-link {
@@ -992,7 +991,7 @@ img {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
-  color: var(--accent-color);
+  color: rgba(33, 150, 243, 1);
 }
 
 .form-button {
